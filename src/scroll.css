@@ -1,0 +1,10 @@
+.goTop{
+    position:fixed;
+    background:#0099CC;
+    bottom: 5%;
+    left:95%;
+    border-radius: 50%;
+}
+img{
+    width: 2.5rem;
+}

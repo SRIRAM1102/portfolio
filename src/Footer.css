@@ -1,0 +1,17 @@
+#footer{
+    background-color: gray;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5%; 
+} 
+.logo{
+    width:1.5rem;
+    height:1.5rem;
+    -webkit-transition: all 500ms ease;
+}
+
+.logo:hover{
+  transform:scale(1.5,1.5);
+}

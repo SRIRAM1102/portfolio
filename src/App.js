@@ -1,24 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import { useRef } from 'react';
+import { useState } from 'react';
+import { Firstpg } from './Firstpg';
+import { About } from './About';
+import { Scroll } from './scroll';
+import { Navbar } from './Navbar';
+import { Project } from './Project';
+import { Skills } from './Skills';
+import {Footer} from './Footer';
+import {Journey} from'./journey';
+import {Card} from "./card";
+
 
 function App() {
+  const [scrollPosition, setSrollPosition] = useState(0);
+  const refScrollUp = useRef();
+  const handleScrollUp = () => { 
+    refScrollUp.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="app">
+       <div ref={refScrollUp}> </div>
+     <Navbar handleScrollUp={handleScrollUp} scrollPosition={scrollPosition} setSrollPosition={setSrollPosition}/>
+    <Firstpg/> 
+    <About/>
+    <Journey/>    
+    <Skills/>
+    <Project/>
+
+<Scroll handleScrollUp={handleScrollUp} scrollPosition={scrollPosition} setSrollPosition={setSrollPosition}/>
+    <Footer/> 
+  </div>
   );
 }
 

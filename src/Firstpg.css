@@ -1,0 +1,56 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    }
+#container-firstpage{
+width:100%;
+ height:100vh;
+ background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url(./images/frontpg/picture.jpg);
+ background-size: cover;
+ background-position:center;
+ padding: 0 8%;
+ position: relative;  
+
+ }
+
+            .textbox{
+                position: absolute;
+                bottom: 8%;
+                color:#fff;
+            }
+            .textbox h3{
+                font-size: 4rem;
+                font-weight: 600;
+                margin: 0px;
+                padding: 0px;
+            }
+            .textbox h1{
+                margin-left: -12px;
+                font-size: 7rem;
+                color:transparent;
+                -webkit-text-stroke: 1px #fff;
+                background: url("./images/frontpg/back.png");
+                -webkit-background-clip: text; 
+                 /* background-position: 0 5; */
+                animation: back 20s linear infinite;
+            }
+            .detail-btn{
+                margin-top: 2rem;
+              height: 2.5rem;
+              width: 7rem;
+              margin-right: 2rem;
+              background-color:transparent;
+              color:#fff;
+              border: 3px solid #fff;
+              font-size: 1rem;
+            }
+    @keyframes back{
+        100%{
+            background-position: 1000px 0;
+        }
+    }
+    .textbox >button> a{
+  text-decoration: none;
+  color: #fff;
+    }

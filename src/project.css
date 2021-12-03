@@ -1,0 +1,48 @@
+#projects{
+
+height: fit-content;
+width: 100%;
+margin-top: 3%;
+}
+
+    #projects > h2{
+        margin-top: 1rem;
+       
+text-align: center;
+        
+        }
+
+.cardarrangement{
+ 
+    display:grid;
+    grid-template-columns:  1fr ;
+
+ justify-items: center;
+ margin-bottom: 2rem;
+
+}
+
+
+
+@media (min-width:700px)
+{
+    .cardarrangement{
+        display:grid;
+        grid-template-columns:  1fr 1fr ;
+   
+     justify-items: center;
+     margin-bottom: 2rem;
+    
+    }
+}
+@media (min-width:1000px)
+{
+    .cardarrangement{
+        display:grid;
+        grid-template-columns:  1fr 1fr 1fr;
+  
+     justify-items: center;
+    margin-bottom: 2rem;
+    
+    }
+}
