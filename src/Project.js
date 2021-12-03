@@ -11,7 +11,7 @@ export function Project() {
   const data=[{image:ecommerce,heading:"Ecommerce",description:"This is a web page where you can buy things or add to card. ",git:"https://github.com/SRIRAM1102/ecommerce-frontend",site:"https://ecommercesite-sriram.netlify.app"},
 
 
-  {image:stack,heading:"Devoloper society",description:"This is a web page where you can ask question to a community or answer to their questions. ",git:"https://github.com/SRIRAM1102/stackflow-frontend",site:"https://developersociety-sriram.netlify.app/question"},
+  {image:stack,heading:"Devoloper society",description:"This is a web page where you can ask question to a community or answer to their questions. ",git:"https://github.com/SRIRAM1102/stackflow-frontend",site:"https://developersociety-sriram.netlify.app"},
 
 
   {image:color,heading:"Color Combinator",description:"This  is a web page which will assist you in desiding color of dress from closet as well as randamized sugesstions.",git:"https://github.com/SRIRAM1102/colorcombinator-front",site:"https://sriram-colorcombinator.netlify.app"},
