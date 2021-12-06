@@ -7,9 +7,9 @@ export function Journey(){
     return(
 		  
 	<div id="journey">
-    
+     <h2>The Journey</h2>
     <div className="container">
-    <h2>The Journey</h2>
+   
  
     <ul class="timeline">
         <li>

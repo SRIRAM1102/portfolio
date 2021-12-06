@@ -5,8 +5,11 @@
   justify-content: center;
   flex-wrap: wrap;
   gap: 12%;
-  margin-top: 3%;
+  /* margin-top: 3%; */
   
+}
+h2{
+  margin-top: 3.5rem;
 }
 .abtcontent {
   width: 40%;

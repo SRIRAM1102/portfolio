@@ -1,6 +1,6 @@
 import './project.css';
 import color from './images/project/color.jpg';
-import calc from './images/project/calc.jpg';
+import weather from './images/project/weather.png';
 import ecommerce from './images/project/ecommerce.jpg';
 import game from './images/project/game.png';
 import stack from './images/project/stack.png';
@@ -20,7 +20,7 @@ export function Project() {
   {image:game,heading:"Tic-Tac-Toe",description:"This is a interactive game which we all have played in school. ",git:"https://github.com/SRIRAM1102/tic-tac-toe",site:"https://tic-tac-toe-sriram.netlify.app"},
 
 
-  {image:calc,heading:"Calculator",description:"This is a web page where you can perform mathematical operations. ",git:"https://github.com/SRIRAM1102",site:"https://calculator-sriram.netlify.app"},
+  {image:weather,heading:"Calculator",description:"This is a web page which collect information about evey country and also tells the weather up there. ",git:"https://github.com/SRIRAM1102/weather-app",site:"https://weatherapp-sriram.netlify.app"},
   ]
   return (
     <div id="projects">
